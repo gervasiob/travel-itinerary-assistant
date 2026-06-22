@@ -1,0 +1,54 @@
+name: juntoz
+description: "Organiza tus aventuras sin esfuerzo con esta app colaborativa de gestión de viajes, donde cada itinerario cobra vida con tarjetas inteligentes, documentos escaneados por IA y sincronización con tu calendario."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  google_maps_flutter: ^2.0.0
+  file_selector: ^1.0.0
+  file_picker: '>=8.1.2'
+  flutter_file_dialog: ^3.0.0
+  firebase_storage: ^13.0.0
+  # Auth & Google Sign-In
+  google_sign_in: ^6.2.1
+  firebase_auth: '>=5.3.3'
+  firebase_core: ^4.10.0
+  cloud_firestore: '>=5.5.0'
+
+  # UI & Utilities
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  go_router: ^16.2.0
+  intl: 0.20.2
+  url_launcher: ^6.0.0
+  uuid: ^4.0.0
+
+  # Device APIs
+  geolocator: 13.0.4
+  image_picker: '>=1.1.2'
+  path_provider: ^2.1.3
+  share_plus: 12.0.2
+  shared_preferences: 2.5.3
+  http: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true

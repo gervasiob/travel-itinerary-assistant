@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "290517835892",
+    "project_id": "pawconnect-490903",
+    "storage_bucket": "pawconnect-490903.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290517835892:android:be61e3888a5130cefb3121",
+        "android_client_info": {
+          "package_name": "com.ngovatek.viajesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290517835892-mcrhlu52nbstodhuhthh8sd10fop13ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpp2FVK7ZCwRbr6VddDMo-_EyP0BZnCs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290517835892-mcrhlu52nbstodhuhthh8sd10fop13ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
